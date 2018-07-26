@@ -1,0 +1,45 @@
+*{
+	/*Everything*/
+}
+
+#container *{
+	/*all children of container*/
+
+}
+
+#byid{
+	/* by id */
+}
+
+.class{
+	/* by class */
+}
+
+li a{
+	/* descendent selector, avoid being too specific (A B X Y... etc)*/
+}
+
+a{
+	/* by type, rather than class or id.*/
+}
+
+X:visited{
+	/*:linked and :visited are pseudo classes to target anchor tags*/
+	/*anchor tags are what wiki uses for articles*/
+}
+
+ul+p{
+	/*adjacent selector. Will select the element that immediately preceeds the former. This will target first para in ul
+}
+
+X > Y{
+	/* select direct child */
+	/* recomended for performance */
+}
+
+X ~ Y{
+	/*sibling selector*/
+	/*similar to X+Y, but less strict. Selects all Y if followed by X*/
+}
+
+

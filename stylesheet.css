@@ -1,0 +1,112 @@
+#bsOver{
+	background:#2b273e;
+}
+
+*{
+	border:0;
+}
+
+#bsOver .navbar{
+	box-shadow: 0 5px 10px rgba(0,0,0,.3);
+	background: #333; 
+}
+
+#titleCard{
+	width:100%;
+	height:50%;
+	background:#EEE;
+}
+
+.nav-item .nav-link{
+	text-color:#EEE !important;
+}
+
+.test .entry{
+	background: #EEE;
+	height: 600px;
+	padding: 15px;
+	color:#999;
+}
+
+.test .projimg{
+	padding:8px;
+	height:33vw;
+}
+
+.fullimg{
+	width:100%;
+	opacity:.9;
+}
+
+.imgthumb{
+	opacity:.9;
+	width:100%;
+	height:100%;
+}
+
+.test .entry1{
+	background: #EEE;
+	/* height: 280px; */
+	height:30vw;
+	padding: 15px;
+	color:#999;
+}
+
+.row .center{
+	align:center;
+	text-align:center;
+}
+
+.row .test{
+	opacity:.8;
+
+}
+
+.entry .sub-title{
+	align:center;
+	text-align:center;
+}
+
+.njitlogo{
+	float:right;
+	background:green;
+}
+
+.container-fluid .parallax{
+	background-attachment: fixed !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+
+.jumbotron .onimg{
+	top: 35%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 75%;
+	position:absolute;
+	color:#EEE !important;
+}
+
+ul li{
+	padding-right:5px;
+	padding-left:7px;
+}
+
+.nav-link .fa{
+	padding-right:10px;
+}
+
+.nav-link .fas{
+	padding-right:10px;
+}
+
+.container .row{
+	width: 100%;
+	padding-left: 0px;
+	background:#00F;
+}
+
+.lists{
+	font-size:20px;
+}
