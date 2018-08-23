@@ -9,18 +9,31 @@
 	</head>
 	<body>
 
-<!--
-	"d-md-none d-lg-block" 
-	"d-none d-md-block d-lg-none"
--->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+		<a class="navbar-brand" style="color:#eee !important" href="#">Jaime Nufio
+	</a>
 
-	<nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top" >
-		<a class="navbar-brand" href="#">Jaime Nufio</a>
 		<button class = "navbar-toggler" type ="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon" style=""></span>
+			<span class="navbar-toggler-icon"></span>
 		</button>
-	</nav>
 
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item" >
+					<a class="nav-link" href="#Home"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#ProgrammingProject"><i class="fas fa-laptop-code" aria-hidden="true"></i>Programming Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Arduino"><i class="fa fa-microchip" aria-hidden="true"></i>Arduino Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fa fa-code" aria-hidden="true"></i>Web Apps</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
 	<a name="Home"></a>
 	
@@ -38,8 +51,8 @@
 	</div>
 
 	<div class="container-fluid">
-		<div class="row pt-2 pb-2 row-eq-height">
-			<div class = "column pl-3 pr-1 col-sm-6 col-lg-6 col-xl-8" >
+		<div class="row pt-2 pb-2">
+			<div class = "pr-1  test col-sm-6 col-lg-6 col-xl-8" >
 				<div class = "entry text-light"style="background:#683247">
 				<div class = "m-3 sub-title"><h3>About Me<h3></div>
 					<hr>
@@ -50,12 +63,12 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 					</div>
 				</div>
 			</div>
-			<div class = " column pl-1 pr-3 col-sm-6 col-lg-6 col-xl-4">
-				<div class = "entry text-light" style="background:#543148">
+			<div class = " pl-1  test col-sm-6 col-lg-6 col-xl-4">
+				<div class = "entry" style="background:#543148">
 					<div class = "m-3 sub-title text-light"><h3>Languages, Tools, Platforms, & Libraries</h3></div>
 						<hr>
 						<div class = "row mx-auto text-light">
-							<div class = " p-3 column col-sm-6">
+							<div class = " p-3 test col-sm-6">
 								<ul class = "lists">
 									<li>Python</li>
 									<li>Java</li>
@@ -67,7 +80,7 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 									<li>Javascript</li>
 								</ul>
 							</div>
-							<div class = " p-3 column col-sm-6">
+							<div class = " p-3 test col-sm-6">
 								<ul class = "lists">
 									<li>GIMP</li>
 									<li>Github</li>
@@ -78,7 +91,7 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 							</div>
 						</div>
 						<hr>
-						<div class = "m-0 sub-title text-light"><h3>Projects Online</h1></div>
+						<div class = "m-3 sub-title text-light"><h3>Projects Online</h1></div>
 							<div style="text-align:center" >
 								<i class="p-2 fab fa-github fa-3x text-light"></i>
 								<i class="p-2 fab fa-steam fa-3x text-light"></i>
@@ -86,13 +99,13 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 								<i class="p-2 fab fa-instagram fa-3x text-light"></i>
 							</div>
 						</div>
-				</div>
+					</div>
 		</div>
 			
-		<div  class="row row-eq-height"  >
-			<div class = "column col-sm-3 col-lg-4 col-xl-3 pl-3 pr-1" >
-				<div class = "entry1 text-light "style="background:#996a74">
-					<div class = "m-2 sub-title" style="text-align:center"><h3>Interests<h3></div><hr>
+		<div class="row pt-0 pb-0" >
+			<div class = "test pr-1 col-sm-4 col-lg-4 col-xl-3" >
+				<div class = "entry1 text-light "style="background:#995a74">
+					<div class = "m-3 sub-title" style="text-align:center"><h3>Interests<h3></div><hr>
 							<ul class = "lists">
 								<li>Artifical Intelligence</li>
 								<li>Machine Learning</li>
@@ -101,28 +114,26 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 							</ul>
 					</div>
 				</div>
-		<div class = "column col-sm-5 col-lg-4 col-xl-6 pl-1 pr-1" >
+		<div class = " test pl-1 pr-1 col-sm-4 col-lg-4 col-xl-6" >
 			<div class = "entry1 text-light"style="background:#573c5f">
-				<div class = "m-3 sub-title" style="text-align:center"><h3>Education & Affiliations<h3></div><hr>
-						<div class="p-3 row" style="display:flex">
-							<div class="p-2 column col-lg-6 col-sm-12" style="text-align:center">
-									<img class = "njitlogo" src="njit.png">
-							</div>
-							<div class="p-2 column col-lg-6 col-sm-12" style="text-align:center">
-								<h4>New Jersey Institute of Technology</h4>
-								<p>Student, B.S. Computer Science (2016-Present)</p>
-								<p style="line-height:0em">Junior, GPA: 3.66</p>
-							</div>
-					</div>
+				<div class = "p-0 m-3 sub-title" style="text-align:center"><h3>TBD<h3></div><hr>
+					<div style="width:45%">
+					<div class = "njitlogo">
 				</div>
 			</div>
-			<div class = "column col-sm-4 col-lg-4 col-xl-3 pl-1 pr-3" >
+		</div>
+	</div>
+			<div class = " test pl-1 col-sm-4 col-lg-4 col-xl-3" >
 				<div class = "entry1 text-light"style="background:#812b4a">
 						<div class="m-3 sub-title" style="text-align:center"><h3>Contact Me<h3></div><hr>
 						<ul class = "lists">
 							<span stype="text-align:center">Email:</span><br>
 							<li>jaimeenufio@gmail.com</li>
 							<li>jen25@njit.edu</li>
+						</ul>
+						<ul class = "lists">
+							<span stype="text-align:center">Twitter:</span><br>
+							<li>@JaimeNufio</li>
 						</ul>
 				</div>
 			</div>
@@ -146,32 +157,32 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 
 	<div class="container-fluid">
 		<div class="row pl-2 pr- pr-2 " style="">
-			<div class = "pl-1 pr-1 pt-2  column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2  test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#595a74">
 					<img src="proj1.png" class="imgthumb" style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#573c5f">
 					<img src="proj2.jpg" class="imgthumb"style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#683247">
 					<img src="proj3.png" class="imgthumb"style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2  column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2  test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#683247">
 					<img src="proj4.png" class="imgthumb" style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#573c5f">
 					<img src="proj5.png" class="imgthumb"style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#595a74">
 					<img src="proj6.png" class="imgthumb"style="">
 				</div>
@@ -195,32 +206,32 @@ Hi! I'm Jaime Nufio, a current Computer Science student at New Jersey Institute 
 
 	<div class="container-fluid">
 		<div class="row pl-2 pr- pr-2 " style="">
-			<div class = "pl-1 pr-1 pt-2  column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2  test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#595a74">
 					<img src="proj1.png" class="imgthumb" style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#573c5f">
 					<img src="proj2.jpg" class="imgthumb"style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#683247">
 					<img src="proj3.png" class="imgthumb"style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2  column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2  test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#683247">
 					<img src="proj4.png" class="imgthumb" style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#573c5f">
 					<img src="proj5.png" class="imgthumb"style="">
 				</div>
 			</div>
-			<div class = "pl-1 pr-1 pt-2 column col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
+			<div class = "pl-1 pr-1 pt-2 test col-sm-6 col-lg-4 col-xl-4 row-eq-height" >
 				<div class = "projimg text-light"style="background:#595a74">
 					<img src="proj6.png" class="imgthumb"style="">
 				</div>
